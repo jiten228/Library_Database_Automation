@@ -1,17 +1,17 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-03-13T05:32:54.719Z",
-        "line": 4,
+        "start_timestamp": "2021-03-13T05:49:50.759Z",
+        "line": 5,
         "name": "As a librarian, I should be able to add books from books page.",
         "description": "",
         "id": "able-to-add-books-from-books-page-on-library-dashboard.;as-a-librarian--i-should-be-able-to-add-books-from-books-page.",
         "after": [
           {
             "result": {
-              "duration": 2268000000,
+              "duration": 1043000000,
               "status": "passed"
             },
             "match": {
@@ -24,10 +24,10 @@
         "steps": [
           {
             "result": {
-              "duration": 5343000000,
+              "duration": 5468000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "user is on the login page",
             "match": {
               "location": "com.library.step_definitions.AddUsers_StepDefinitions.user_is_on_the_login_page()"
@@ -36,10 +36,10 @@
           },
           {
             "result": {
-              "duration": 2454000000,
+              "duration": 2461000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "with librarian login credential login successfully",
             "match": {
               "location": "com.library.step_definitions.AddUsers_StepDefinitions.with_librarian_login_credential_login_successfully()"
@@ -48,10 +48,10 @@
           },
           {
             "result": {
-              "duration": 5561000000,
+              "duration": 5215000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "user add books with all valid info",
             "match": {
               "location": "com.library.step_definitions.AddBooks_StepDefinitions.user_add_books_with_all_valid_info()"
@@ -60,10 +60,10 @@
           },
           {
             "result": {
-              "duration": 83000000,
+              "duration": 93000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "user able to see \"The book has been created.\" message on the page",
             "match": {
               "arguments": [
@@ -78,10 +78,10 @@
           },
           {
             "result": {
-              "duration": 1046000000,
+              "duration": 888000000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "check the book added in the database",
             "match": {
               "location": "com.library.step_definitions.AddBooks_StepDefinitions.check_the_book_added_in_the_database()"
@@ -90,6 +90,9 @@
           }
         ],
         "tags": [
+          {
+            "name": "@smoke"
+          },
           {
             "name": "@addBook"
           }
@@ -101,6 +104,341 @@
     "id": "able-to-add-books-from-books-page-on-library-dashboard.",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/addBooks.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-13T05:50:06.086Z",
+        "line": 5,
+        "name": "As a librarian, I should be able to add users from users page.",
+        "description": "",
+        "id": "able-to-add-users-from-users-page.;as-a-librarian--i-should-be-able-to-add-users-from-users-page.",
+        "after": [
+          {
+            "result": {
+              "duration": 1003000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3706000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.library.step_definitions.AddUsers_StepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2406000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "with librarian login credential login successfully",
+            "match": {
+              "location": "com.library.step_definitions.AddUsers_StepDefinitions.with_librarian_login_credential_login_successfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9098000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user add users with all valid info",
+            "match": {
+              "location": "com.library.step_definitions.AddUsers_StepDefinitions.user_add_users_with_all_valid_info()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user able to see \"The user has been created.\" message on page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The user has been created.\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.library.step_definitions.AddUsers_StepDefinitions.user_able_to_see_message_on_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 687000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "check that user in database",
+            "match": {
+              "location": "com.library.step_definitions.AddUsers_StepDefinitions.check_that_user_added_in_database()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@addUser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-13T05:50:23.152Z",
+        "line": 13,
+        "name": "As a librarian, I should be able to edit user info.",
+        "description": "",
+        "id": "able-to-add-users-from-users-page.;as-a-librarian--i-should-be-able-to-edit-user-info.",
+        "after": [
+          {
+            "result": {
+              "duration": 1577000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3565000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.library.step_definitions.AddUsers_StepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2423000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "with librarian login credential login successfully",
+            "match": {
+              "location": "com.library.step_definitions.AddUsers_StepDefinitions.with_librarian_login_credential_login_successfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3216000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click edit user button",
+            "match": {
+              "location": "com.library.step_definitions.AddUsers_StepDefinitions.user_click_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1007000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user able to see \"The user updated.\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The user updated.\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.library.step_definitions.AddUsers_StepDefinitions.user_able_to_see_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 668000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "check that user in database",
+            "match": {
+              "location": "com.library.step_definitions.AddUsers_StepDefinitions.check_that_user_added_in_database()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@editUser"
+          }
+        ]
+      }
+    ],
+    "name": "Able to add users from users page.",
+    "description": "",
+    "id": "able-to-add-users-from-users-page.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/addUsers.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-13T05:50:35.636Z",
+        "line": 7,
+        "name": "Login as a librarian",
+        "description": "",
+        "id": "compare-data-with-library-app.;login-as-a-librarian",
+        "after": [
+          {
+            "result": {
+              "duration": 1165000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5507000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.library.step_definitions.dashboardMatchNumbers_StepDefinitions.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 704000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I login using \"librarian67@library\" and \"5ktpB2e5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarian67@library\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"5ktpB2e5\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.library.step_definitions.dashboardMatchNumbers_StepDefinitions.i_login_using_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4159000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "dashboard should be displayed \"dashboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dashboard\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.library.step_definitions.dashboardMatchNumbers_StepDefinitions.dashboard_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 553000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify users,books and borrowed books from database",
+            "match": {
+              "location": "com.library.step_definitions.dashboardMatchNumbers_StepDefinitions.verify_users_books_and_borrowed_books_from_database()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@Librarian"
+          }
+        ]
+      }
+    ],
+    "name": "compare data with library app.",
+    "description": "  Agile Story: from the library dashboard page match numbers of\n               users,books and borrow_books from UI with library1 database",
+    "id": "compare-data-with-library-app.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/dashboardMatchNumbers.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

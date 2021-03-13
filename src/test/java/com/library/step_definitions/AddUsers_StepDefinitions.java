@@ -1,12 +1,6 @@
 package com.library.step_definitions;
 
 import com.github.javafaker.Faker;
-//import com.libraryCT_database.pages.LoginPage;
-//import com.libraryCT_database.pages.UsersPage;
-//import com.libraryCT_database.utilities.BrowserUtils;
-//import com.libraryCT_database.utilities.ConfigurationReader;
-//import com.libraryCT_database.utilities.DB_Utility;
-//import com.libraryCT_database.utilities.Driver;
 import com.library.pages.LoginPage;
 import com.library.pages.UsersPage;
 import com.library.utilities.BrowserUtils;

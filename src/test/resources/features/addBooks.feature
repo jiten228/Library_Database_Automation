@@ -1,3 +1,4 @@
+@smoke
 Feature: Able to add books from books page on library dashboard.
 
   @addBook

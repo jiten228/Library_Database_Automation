@@ -1,3 +1,4 @@
+@smoke
 Feature: Able to add users from users page.
 
   @addUser
