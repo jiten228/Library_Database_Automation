@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-13T05:32:54.719Z",
+        "line": 4,
+        "name": "As a librarian, I should be able to add books from books page.",
+        "description": "",
+        "id": "able-to-add-books-from-books-page-on-library-dashboard.;as-a-librarian--i-should-be-able-to-add-books-from-books-page.",
+        "after": [
+          {
+            "result": {
+              "duration": 2268000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5343000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.library.step_definitions.AddUsers_StepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2454000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "with librarian login credential login successfully",
+            "match": {
+              "location": "com.library.step_definitions.AddUsers_StepDefinitions.with_librarian_login_credential_login_successfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5561000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user add books with all valid info",
+            "match": {
+              "location": "com.library.step_definitions.AddBooks_StepDefinitions.user_add_books_with_all_valid_info()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user able to see \"The book has been created.\" message on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The book has been created.\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.library.step_definitions.AddBooks_StepDefinitions.user_able_to_see_message_on_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1046000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "check the book added in the database",
+            "match": {
+              "location": "com.library.step_definitions.AddBooks_StepDefinitions.check_the_book_added_in_the_database()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addBook"
+          }
+        ]
+      }
+    ],
+    "name": "Able to add books from books page on library dashboard.",
+    "description": "",
+    "id": "able-to-add-books-from-books-page-on-library-dashboard.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/addBooks.feature",
+    "tags": []
+  }
+]
