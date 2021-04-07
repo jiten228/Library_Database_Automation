@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-03-13T05:49:50.759Z",
+        "start_timestamp": "2021-03-24T21:33:54.829Z",
         "line": 5,
         "name": "As a librarian, I should be able to add books from books page.",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 1043000000,
+              "duration": 653000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5468000000,
+              "duration": 2864000000,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 2461000000,
+              "duration": 2228000000,
               "status": "passed"
             },
             "line": 7,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 5215000000,
+              "duration": 3969000000,
               "status": "passed"
             },
             "line": 8,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 93000000,
+              "duration": 639000000,
               "status": "passed"
             },
             "line": 9,
@@ -78,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 888000000,
+              "duration": 1144000000,
               "status": "passed"
             },
             "line": 10,
@@ -119,7 +119,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-03-13T05:50:06.086Z",
+        "start_timestamp": "2021-03-24T21:34:06.399Z",
         "line": 5,
         "name": "As a librarian, I should be able to add users from users page.",
         "description": "",
@@ -127,7 +127,7 @@
         "after": [
           {
             "result": {
-              "duration": 1003000000,
+              "duration": 638000000,
               "status": "passed"
             },
             "match": {
@@ -140,7 +140,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3706000000,
+              "duration": 2141000000,
               "status": "passed"
             },
             "line": 6,
@@ -152,7 +152,7 @@
           },
           {
             "result": {
-              "duration": 2406000000,
+              "duration": 2219000000,
               "status": "passed"
             },
             "line": 7,
@@ -164,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 9098000000,
+              "duration": 4088000000,
               "status": "passed"
             },
             "line": 8,
@@ -176,7 +176,7 @@
           },
           {
             "result": {
-              "duration": 112000000,
+              "duration": 639000000,
               "status": "passed"
             },
             "line": 9,
@@ -194,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 687000000,
+              "duration": 1729000000,
               "status": "passed"
             },
             "line": 10,
@@ -215,7 +215,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-13T05:50:23.152Z",
+        "start_timestamp": "2021-03-24T21:34:17.854Z",
         "line": 13,
         "name": "As a librarian, I should be able to edit user info.",
         "description": "",
@@ -223,7 +223,7 @@
         "after": [
           {
             "result": {
-              "duration": 1577000000,
+              "duration": 639000000,
               "status": "passed"
             },
             "match": {
@@ -236,7 +236,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3565000000,
+              "duration": 2170000000,
               "status": "passed"
             },
             "line": 14,
@@ -248,7 +248,7 @@
           },
           {
             "result": {
-              "duration": 2423000000,
+              "duration": 2217000000,
               "status": "passed"
             },
             "line": 15,
@@ -260,7 +260,7 @@
           },
           {
             "result": {
-              "duration": 3216000000,
+              "duration": 2642000000,
               "status": "passed"
             },
             "line": 16,
@@ -272,7 +272,7 @@
           },
           {
             "result": {
-              "duration": 1007000000,
+              "duration": 2036000000,
               "status": "passed"
             },
             "line": 17,
@@ -290,7 +290,7 @@
           },
           {
             "result": {
-              "duration": 668000000,
+              "duration": 1791000000,
               "status": "passed"
             },
             "line": 18,
@@ -331,15 +331,15 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-03-13T05:50:35.636Z",
+        "start_timestamp": "2021-03-24T21:34:29.354Z",
         "line": 7,
-        "name": "Login as a librarian",
+        "name": "Compare the dashboard data with library database",
         "description": "",
-        "id": "compare-data-with-library-app.;login-as-a-librarian",
+        "id": "compare-data-with-library-app.;compare-the-dashboard-data-with-library-database",
         "after": [
           {
             "result": {
-              "duration": 1165000000,
+              "duration": 618000000,
               "status": "passed"
             },
             "match": {
@@ -352,7 +352,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5507000000,
+              "duration": 2151000000,
               "status": "passed"
             },
             "line": 8,
@@ -364,7 +364,7 @@
           },
           {
             "result": {
-              "duration": 704000000,
+              "duration": 213000000,
               "status": "passed"
             },
             "line": 9,
@@ -386,7 +386,7 @@
           },
           {
             "result": {
-              "duration": 4159000000,
+              "duration": 1890000000,
               "status": "passed"
             },
             "line": 10,
@@ -404,7 +404,7 @@
           },
           {
             "result": {
-              "duration": 553000000,
+              "duration": 647000000,
               "status": "passed"
             },
             "line": 11,
